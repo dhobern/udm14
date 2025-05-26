@@ -13,6 +13,7 @@
         "search_provider": {
             "name": "udm14",
             "search_url": "https://www.google.com/search?q={searchTerms}&udm=14",
+            "suggest_url": "https://www.google.com/complete/search?client=firefox&q=%s",
             "keyword": "udm14",
             "is_default": true,
             "encoding": "UTF-8"

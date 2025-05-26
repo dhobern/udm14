@@ -1,12 +1,12 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Google search engine with udm=14 preset",
     "description": "Adds a Google search engine that includes the udm=14 parameter",
-    "version": "1.0",
+    "version": "1.1",
     "browser_specific_settings": {
         "gecko": {
             "id": "dhobern@gmail.com",
-            "strict_min_version": "55.0"
+            "strict_min_version": "106.0"
         }
     },
     "chrome_settings_overrides": {
@@ -14,7 +14,6 @@
             "name": "udm14",
             "search_url": "https://www.google.com/search?q={searchTerms}&udm=14",
             "keyword": "udm14",
-            "favicon_url": "https://hobern.net/favicon.ico",
             "is_default": false,
             "encoding": "UTF-8"
         }
